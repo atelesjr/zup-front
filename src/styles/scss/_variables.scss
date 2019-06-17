@@ -1,0 +1,21 @@
+//Sass variabels
+$color-purple: #38013f;
+$color-purple-light: #43004c;
+$color-gray-dark: #212121;
+$color-gray: #bbb;
+
+//Elements----------------------------
+
+$bkg-gradient: radial-gradient($color-purple, $color-gray-dark);
+
+$color-text : $color-gray-dark;
+$color-placehold: $color-gray;
+$color-bkg-2:#EEE;
+
+//Resolution---------------------------
+$screen-xs: 31.25em; //500px
+$screen-sm: 48em; //768px
+$screen-md: 62em; //992px
+$screen-lg: 75em; //1200px
+
+

@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10/16px = 62.5%
+}
+
+body{
+    background: $bkg-gradient;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    letter-spacing: 0.93px;
+    color: $color-text;
+    min-height: 100vh;
+    font-size: 1.5rem;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 80rem;
+    min-width: 35rem;
+    height: 7rem;
+    margin: auto;
+    @include screen (md) {
+        padding: 0 2rem;
+    }
+     
+}
+
+h1 {
+    color: #FFF;
+    font-weight: 900;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @include screen (xs) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+input {
+
+    border: 1px solid $color-gray;
+    padding: 2rem;
+    border-radius: .3rem;
+    outline: none;
+
+    &:focus, &:hover {
+        background-color: $color-bkg-2;
+        &+i{
+            color: $color-gray-dark;
+        }
+    }
+
+    
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $color-placehold;
+        font-size: 1.5rem;
+        font-weight: 600;
+        opacity: 1; /* Firefox */
+    }
+      
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $color-placehold;
+        font-weight: 600;
+    }
+      
+    &::-ms-input-placeholder { /* Microsoft Edge */
+        color: $color-placehold;
+        font-weight: 600;
+    }
+}
+
+button {
+    width: 15rem;
+    padding: 1.5rem;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: $color-purple-light;
+    border-radius: .7rem;
+    border: none;
+    outline: none;
+
+    &:hover {
+        background-color: lighten($color-purple-light, 5%);
+    }
+
+    &:active {
+        background-color: lighten($color-purple-light, 10%);
+    }
+
+    
+}
+
+
