@@ -7,7 +7,7 @@ export default props => {
         <div className="card">
             <div className="card__head"> 
                 <div className="flag">
-                    <img src={ country.flag } alt="brazil" />
+                    <img src={ country.flag } alt={ country.name } />
                 </div>
                 <div className="country">
                     <p className="country__name">{ country.name }</p>
@@ -18,10 +18,9 @@ export default props => {
                 <p>Region: <span>{ country.region }</span></p>
                 <p>Subregion: <span >{ country.subregion }</span></p>
                 <p>
-                    Currency: <span>{ country.currencies[0].code }  </span>
-                    Symbol:  <span>{ country.currencies[0].symbol }</span>
+                    Currency: <span>{ country.currencies[0].code } ({ country.currencies[0].symbol })</span>
                 </p>
-                <p>International calling code: <span>{country.callingCodes }</span></p>
+                <p>International calling code: <span>{ country.callingCodes }</span></p>
                 <p>Top Level Domain: <span>{ country.topLevelDomain }</span></p>
             </div>
         </div>

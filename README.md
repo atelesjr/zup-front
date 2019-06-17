@@ -8,10 +8,12 @@ npm i
 npm start
 
 
-![Venturos Sports](https://github.com/atelesjr/Venturus---Desafio/blob/master/src/img/01.PNG)
+![Zup - Lista de países](https://github.com/atelesjr/zup-front/blob/master/public/img/01.JPG)
 
-![Venturos Sports](https://github.com/atelesjr/Venturus---Desafio/blob/master/src/img/02.PNG)
+![Zup - Lista de países](https://github.com/atelesjr/zup-front/blob/master/public/img/02.JPG)
 
-![Venturos Sports](https://github.com/atelesjr/Venturus---Desafio/blob/master/src/img/03.PNG)
+![Zup - Lista de países](https://github.com/atelesjr/zup-front/blob/master/public/img/03.JPG)
 
-![Venturos Sports](https://github.com/atelesjr/Venturus---Desafio/blob/master/src/img/04.PNG)
+![Zup - Lista de países](https://github.com/atelesjr/zup-front/blob/master/public/img/04.JPG)
+
+![Zup - Lista de países](https://github.com/atelesjr/zup-front/blob/master/public/img/05.JPG)
