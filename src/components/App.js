@@ -23,6 +23,7 @@ class App extends Component {
     render() {
         return (
             <div className="container">
+                x
                 { this.renderButton() }
                 <div className="content" >
                     <Route path="/" exact component={ Login } />
